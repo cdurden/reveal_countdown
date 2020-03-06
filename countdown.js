@@ -38,7 +38,7 @@ var RevealCountDown =
     var running = false;
 
     Reveal.addEventListener("slidechanged", function(event) {
-      initCountDown(event.currentSlide);
+//      initCountDown(event.currentSlide);
     });
 
     // If timer is on first slide start on ready
